@@ -1,11 +1,10 @@
-# vmonepage
-Free Open Source One Page Checkout for Virtuemkart
+Free One Page Checkout for Virtuemkart
 ====================================
 
 What is this?
 ---------------------
 
-* A Generic One Page Checkout which goal is to work with ALL Joomla templates.
+* A Generic Open Source One Page Checkout which goal is to work with ALL Joomla templates.
 
 Why us this?
 ---------------------
