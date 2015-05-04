@@ -14,7 +14,7 @@ Why us this?
 
 Demos?
 ---------------------
-[Demos](http://vmonepage.com)
+[Checkout DEMOS of this one page on vmonepage.com](http://vmonepage.com)
 
 Do you want to improve it?
 ---------------------
