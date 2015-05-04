@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="plugin" group="system" method="upgrade">
+        <name>Onepage Generic</name>
+        <author>Claes Norin</author>
+        <creationDate>April 2015</creationDate>
+        <copyright>Copyright (C) 2012 Linelab.org. All rights reserved.</copyright>
+        <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+        <authorEmail>support@vmuikit.com</authorEmail>
+        <authorUrl>www.vmuikit.com</authorUrl>
+        <version>2.0.3</version>
+		<description><![CDATA[ 
+	 <table class="table"><tr><td><a href="http://vmonepage.com"><img src="http://vmkco.com/images/logo_vmonepage.png"></a></td><td><h3>Onepage Generic successfully installed.</h3><hr>For more information and to download the latest FREE version of this One Page Checkout please visit <a target="_blank" href="http://vmonepage.com">http://vmonepage.com</a> </h4></td></tr></table>
+	  <table class="table"><tr><td><a href="http://vmkco.com"><img src="http://vmkco.com/images/klarna_logo.png"></a></td><td style="vertical-align: middle;">Looking for Klarna Checkout module? Please visit <a target="_blank" href="http://www.vmkco.com">www.vmkco.com</a> for Free Klarna Checkout Enhanced plugin</td></tr></table>
+		]]></description>
+        <files>
+        		<folder>images</folder>
+				<folder>languages</folder>
+				<folder>cart</folder>
+				<folder>fonts</folder>
+                <filename plugin="onepage_generic">onepage_generic.php</filename>
+                <filename plugin="onepage_generic">onepage_generic.css</filename>
+        </files>
+        <languages folder="languages">
+        	<language tag="en-GB">en-GB.plg_system_onepage_generic.ini</language>
+        </languages>
+        <config>
+	        <fields name="params">
+	                <fieldset name="basic">
+						
+	                	
+	                
+						<field 	name="show_extraterms"	type="radio" class="btn-group btn-group-yesno"	label="Show Legislative Decree 196/03"
+			description="" default="0">
+							<option value="0">JNO</option>
+							<option value="1">JYES</option>
+						</field>	 
+						<field 	name="hide_oneshipment"	type="radio" class="btn-group btn-group-yesno"	label="Hide Shipment Block(If one Shipment)"	description="" default="0">
+							<option value="0">JNO</option>
+							<option value="1">JYES</option>
+						</field>	
+						<field 	name="hide_onepayment"	type="radio" class="btn-group btn-group-yesno"	label="Hide Payment Block(If one Payment)"
+			description="" default="0">
+							<option value="0">JNO</option>
+							<option value="1">JYES</option>
+						</field>	
+						<field name="buttoncolour" type="color" label="Button Color" />
+						
+
+	                </fieldset>
+	        </fields>
+        </config>
+</extension>
