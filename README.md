@@ -1,4 +1,4 @@
-Free One Page Checkout for Virtuemkart
+Free One Page Checkout for Virtuemart
 ====================================
 
 What is this?
@@ -12,6 +12,9 @@ Why us this?
 * Quick installation (install plugin, enable and off you go)
 * Compatible with most Virtuemart payment modules
 
+Demos?
+---------------------
+[Demos](http://vmonepage.com)
 
 Do you want to improve it?
 ---------------------
